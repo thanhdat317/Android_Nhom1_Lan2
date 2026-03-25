@@ -6,37 +6,36 @@
     android:padding="16dp">
 
     <TextView
-        android:id="@+id/txtLoginStatus"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/not_logged_in"
-        android:textSize="16sp" />
+        android:text="@string/invoice_title"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtInvoiceHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+
+    <ListView
+        android:id="@+id/listInvoiceItems"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/txtInvoiceTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" />
 
     <Button
-        android:id="@+id/btnLoginLogout"
+        android:id="@+id/btnBackHome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="@string/login" />
-
-    <Button
-        android:id="@+id/btnProducts"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="@string/view_products" />
-
-    <Button
-        android:id="@+id/btnCategories"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="@string/view_categories" />
-
-    <Button
-        android:id="@+id/btnCurrentOrder"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="@string/view_current_order" />
+        android:text="@string/back_home" />
 </LinearLayout>
+

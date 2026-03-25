@@ -11,6 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_KT02">
+        <activity android:name=".Activities.InvoiceActivity" />
+        <activity android:name=".Activities.CartActivity" />
+        <activity android:name=".Activities.ProductDetailActivity" />
+        <activity android:name=".Activities.ProductListActivity" />
+        <activity android:name=".Activities.CategoryListActivity" />
+        <activity android:name=".Activities.LoginActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

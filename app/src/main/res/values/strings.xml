@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">Android_KT02</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="view_products">Xem danh sach Products</string>
+    <string name="view_categories">Xem Categories</string>
+    <string name="view_current_order">Xem chi tiet Product</string>
+    <string name="not_logged_in">Ban chua dang nhap</string>
+    <string name="logged_in_as">Dang nhap voi tai khoan: %1$s</string>
+
+    <string name="login_title">Dang nhap</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_required_message">Nhap username va password</string>
+    <string name="login_failed_message">Dang nhap that bai</string>
+    <string name="login_success_message">Dang nhap thanh cong</string>
+
+    <string name="category_list_title">Danh sach Categories</string>
+    <string name="product_list_title">Danh sach Products</string>
+    <string name="product_list_by_category">Products - %1$s</string>
+    <string name="product_price">Gia: %1$s VND</string>
+    <string name="product_not_found">Khong tim thay san pham</string>
+    <string name="add_to_order">Them vao hoa don</string>
+    <string name="added_to_order_message">Da them san pham vao hoa don</string>
+
+    <string name="cart_title">Hoa don hien tai</string>
+    <string name="cart_empty_message">Chua co san pham nao trong hoa don</string>
+    <string name="continue_shopping">Tiep tuc chon san pham</string>
+    <string name="checkout">Thanh toan</string>
+    <string name="cart_total">Tong tien: %1$s VND</string>
+
+    <string name="invoice_title">Hoa don</string>
+    <string name="invoice_header">Ma hoa don: #%1$d\nTrang thai: %2$s\nThoi gian: %3$s</string>
+    <string name="back_home">Ve Home</string>
+    <string name="order_not_found">Khong tim thay hoa don</string>
 </resources>
