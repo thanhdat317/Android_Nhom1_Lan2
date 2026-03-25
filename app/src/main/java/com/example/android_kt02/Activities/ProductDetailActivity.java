@@ -1,4 +1,3 @@
-//xem chi tiet san pham
 package com.example.android_kt02.Activities;
 
 import android.content.Intent;
